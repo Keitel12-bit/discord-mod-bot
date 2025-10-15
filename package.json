@@ -1,0 +1,16 @@
+{
+  "name": "admin-bot",
+  "version": "1.0.0",
+  "description": "Ein Discord Admin Bot mit 6 Slash-Befehlen (ban, unban, kick, timeout, untimeout, clear)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "DeinName",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
